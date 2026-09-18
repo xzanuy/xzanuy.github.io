@@ -1,5 +1,5 @@
 import { copy } from './copy.js';
-import { projects } from './projects.js';
+import { visibleProjects as projects } from './projects.js';
 
 export const escapeHTML = (value) => String(value).replace(/[&<>"']/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));
 export const arrow = (direction = 'right') => `<svg class="icon" aria-hidden="true"><use href="#arrow-${direction}"/></svg>`;

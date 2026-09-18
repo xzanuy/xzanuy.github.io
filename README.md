@@ -18,6 +18,7 @@ La vista local está en http://127.0.0.1:4173.
 
 - `copy.js`: textos y traducciones ES/EN.
 - `projects.js`: proyectos, estados, tecnologías y casos.
+- `visible: false` en un proyecto lo oculta de la web y desactiva su caso. Quitar esa propiedad permite volver a mostrarlo.
 - `views.js`: plantillas compartidas por el HTML estático y la interfaz.
 - `app.js`: idiomas, diálogos accesibles, historial y contacto.
 - `styles.css`: diseño responsive y movimiento reducido.

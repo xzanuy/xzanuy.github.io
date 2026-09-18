@@ -131,6 +131,7 @@ export const projects = [
   },
   {
     id: 'signal',
+    visible: false,
     name: 'Signal',
     number: '06',
     category: { es: 'Datos · Herramienta de análisis', en: 'Data · Analysis tool' },
@@ -157,6 +158,7 @@ export const projects = [
   },
   {
     id: 'parking',
+    visible: false,
     name: 'Gestor Parking',
     number: '07',
     category: { es: 'Herramienta interna · Operaciones', en: 'Internal tool · Operations' },
@@ -183,6 +185,7 @@ export const projects = [
   },
   {
     id: 'commit-streak',
+    visible: false,
     name: 'Commit Streak',
     number: '08',
     category: { es: 'Herramienta personal · GitHub', en: 'Personal tool · GitHub' },
@@ -209,6 +212,7 @@ export const projects = [
   },
   {
     id: 'best-matches-history',
+    visible: false,
     name: 'Best Matches of History',
     number: '09',
     category: { es: 'Descubrimiento · Deporte', en: 'Discovery · Sport' },
@@ -235,6 +239,7 @@ export const projects = [
   },
   {
     id: 'wcigrn',
+    visible: false,
     name: 'Where Can I Get Retired Now?',
     number: '10',
     category: { es: 'Comparación · Datos y mapas', en: 'Comparison · Data & maps' },
@@ -261,6 +266,7 @@ export const projects = [
   },
   {
     id: 'dosx1',
+    visible: false,
     name: '2x1',
     number: '11',
     category: { es: 'Marketplace · Compra colaborativa', en: 'Marketplace · Shared shopping' },
@@ -287,6 +293,7 @@ export const projects = [
   },
   {
     id: 'curso-acroyoga',
+    visible: false,
     name: 'Curso Acroyoga',
     number: '12',
     category: { es: 'Educación · Plataforma de cursos', en: 'Education · Course platform' },
@@ -313,6 +320,7 @@ export const projects = [
   },
   {
     id: 'awaking-immo',
+    visible: false,
     name: 'AWaking Immo',
     number: '13',
     category: { es: 'Geolocalización · Inmobiliario', en: 'Geolocation · Property' },
@@ -338,3 +346,5 @@ export const projects = [
     },
   },
 ];
+
+export const visibleProjects = projects.filter((project) => project.visible !== false);

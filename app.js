@@ -1,5 +1,5 @@
 import { copy } from './copy.js';
-import { projects } from './projects.js';
+import { visibleProjects as projects } from './projects.js';
 import { heading, renderArchive, renderCase, renderProjects, renderServices, renderStrengths } from './views.js';
 
 const dialog = document.querySelector('#case-dialog');
