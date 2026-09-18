@@ -1,0 +1,340 @@
+export const projects = [
+  {
+    id: 'typeglow',
+    name: 'TypeGlow',
+    number: '01',
+    category: { es: 'Producto digital · Web y Android', en: 'Digital product · Web & Android' },
+    status: { es: 'Web publicada', en: 'Live on the web' },
+    tagline: { es: 'Una pantalla. Un mensaje que se ve.', en: 'One screen. A message that gets seen.' },
+    summary: {
+      es: 'Del primer cartel sin registro a los estilos premium. Una herramienta cotidiana trabajada como producto: experiencia, desarrollo, monetización y distribución.',
+      en: 'From a first sign without signing up to premium visual styles. An everyday tool developed as a product: experience, engineering, monetisation and distribution.',
+    },
+    stack: ['React', 'TypeScript', 'React Native / Expo', 'Skia', 'Stripe / RevenueCat'],
+    links: [{ label: { es: 'Abrir TypeGlow', en: 'Open TypeGlow' }, url: 'https://typeglow.co' }],
+    sections: {
+      es: [
+        { heading: 'El problema', body: 'En un aeropuerto, un concierto o un lugar ruidoso, a veces hace falta que un mensaje se vea. TypeGlow convierte el móvil en un cartel grande, animado y legible, con una primera experiencia que no exige registro.' },
+        { heading: 'Las decisiones', body: 'El editor parte de situaciones de uso y muestra el resultado al momento. Los estilos premium se pueden probar antes de comprar. Web y app nativa comparten lógica estable, mientras cada una conserva una interfaz adaptada a su plataforma.' },
+        { heading: 'Dónde está', body: 'La web está publicada e incluye frases offline, exportación y funciones para varias pantallas. El trabajo abarca también la app Android, pagos, SEO y ASO. La métrica elegida es el uso efectivo del cartel; el reto siguiente es aprender de su uso real.' },
+      ],
+      en: [
+        { heading: 'The problem', body: 'At an airport, a concert or somewhere noisy, sometimes a message needs to be seen. TypeGlow turns a phone into a large, animated, readable sign, with a first experience that requires no account.' },
+        { heading: 'The decisions', body: 'The editor starts from everyday situations and previews the result immediately. Premium styles can be tried before purchase. Web and native apps share stable logic while keeping interfaces suited to their own platforms.' },
+        { heading: 'Where it stands', body: 'The website is live with offline phrases, image export and features for multiple screens. The work also covers Android, payments, SEO and app store positioning. The chosen measure is actual sign use; the next challenge is learning from real usage.' },
+      ],
+    },
+  },
+  {
+    id: 'solo-training',
+    name: 'Solo Training',
+    number: '02',
+    category: { es: 'Visión por computadora · Fitness', en: 'Computer vision · Fitness' },
+    status: { es: 'Web publicada · App en desarrollo', en: 'Live website · App in development' },
+    tagline: { es: 'Que cada repetición cuente.', en: 'Make every rep count.' },
+    summary: {
+      es: 'La cámara cuenta repeticiones. Las misiones, los retos y el progreso convierten ese esfuerzo en una experiencia a la que apetece volver.',
+      en: 'The camera counts repetitions. Missions, challenges and progression turn that effort into an experience designed to bring people back.',
+    },
+    stack: ['React', 'TypeScript', 'TensorFlow MoveNet', 'Firebase', 'React Native'],
+    links: [{ label: { es: 'Abrir Solo Training', en: 'Open Solo Training' }, url: 'https://solotraining.co' }],
+    sections: {
+      es: [
+        { heading: 'El problema', body: 'Entrenar solo exige constancia y atención. Registrar cada repetición añade una tarea más. Solo Training explora cómo usar la cámara para contar ejercicios y hacer visible el esfuerzo mediante objetivos diarios y progreso acumulado.' },
+        { heading: 'Las decisiones', body: 'MoveNet aporta la detección de pose; la lógica de conteo traduce el movimiento en repeticiones. El producto añade feedback inmediato, misiones, niveles y retos. La lógica compartida permite desarrollar la versión móvil sin duplicar las reglas del entrenamiento.' },
+        { heading: 'Dónde está', body: 'La web se puede probar y la app nativa sigue en desarrollo. El proyecto conecta una interacción técnica con una experiencia de hábito. La precisión depende del encuadre y del dispositivo: el diseño debe ayudar a empezar bien y a recuperar una sesión cuando algo falla.' },
+      ],
+      en: [
+        { heading: 'The problem', body: 'Training alone takes consistency and attention. Logging every repetition adds another task. Solo Training explores using the camera to count exercises and make effort visible through daily goals and accumulated progress.' },
+        { heading: 'The decisions', body: 'MoveNet provides pose detection; counting logic turns movement into repetitions. Immediate feedback, missions, levels and challenges shape the experience. Shared logic supports mobile development without duplicating the exercise rules.' },
+        { heading: 'Where it stands', body: 'The website is available to try and the native app is in development. The project connects a technical interaction with a habit-building experience. Accuracy depends on framing and the device, so the design must help users start correctly and recover when something goes wrong.' },
+      ],
+    },
+  },
+  {
+    id: 'ai-walking-tour',
+    name: 'AI Walking Tour',
+    number: '03',
+    category: { es: 'IA aplicada · Exploración', en: 'Applied AI · Exploration' },
+    status: { es: 'Android · En evolución', en: 'Android · In development' },
+    tagline: { es: 'Caminar. Descubrir. Entender dónde estás.', en: 'Walk. Discover. Understand where you are.' },
+    summary: {
+      es: 'Una guía que conecta lugares cercanos con historias y audio. El trabajo de producto está tanto en la experiencia como en las fuentes, la calidad y el coste de la IA.',
+      en: 'A guide connecting nearby places with stories and audio. Product work covers the experience as well as the sources, quality and cost of AI.',
+    },
+    stack: ['Expo / React Native', 'Fastify', 'OpenStreetMap', 'Gemini / OpenAI', 'Supabase'],
+    links: [{ label: { es: 'Ver descargas Android', en: 'View Android downloads' }, url: 'https://github.com/xzanuy/ai-walking-tour-releases' }],
+    sections: {
+      es: [
+        { heading: 'El problema', body: 'La idea nació en Roma: estaba delante de un monumento y quería entender qué estaba viendo, sin pasar el paseo buscando en el móvil. AI Walking Tour conecta ubicación, descubrimiento e historias narradas para explorar a pie.' },
+        { heading: 'Las decisiones', body: 'La generación se apoya en información del lugar y fuentes. Las cuotas, la caché y los límites de gasto forman parte del producto. Un error que mezclaba hechos históricos llevó a trabajar una revisión separada de afirmaciones y evidencias.' },
+        { heading: 'Dónde está', body: 'Hay un repositorio público para las descargas Android y el desarrollo continúa. La revisión factual más reciente está implementada localmente, pendiente de despliegue. El aprendizaje central: una narración convincente necesita evaluación; la fluidez del texto no basta para confiar en ella.' },
+      ],
+      en: [
+        { heading: 'The problem', body: 'The idea started in Rome: I was standing in front of a monument and wanted to understand what I was looking at, without spending the walk searching on my phone. AI Walking Tour connects location, discovery and narrated stories for exploring on foot.' },
+        { heading: 'The decisions', body: 'Generation uses place information and source material. Quotas, caching and spending limits are part of the product. An error that mixed historical facts prompted work on a separate review of claims against evidence.' },
+        { heading: 'Where it stands', body: 'A public repository hosts Android downloads and development continues. The latest factual review is implemented locally and awaits deployment. The central lesson: a convincing story needs evaluation; fluent text alone is not enough to trust it.' },
+      ],
+    },
+  },
+  {
+    id: 'odin',
+    name: 'Odin IPTV',
+    number: '04',
+    category: { es: 'Producto nativo · Móvil y TV', en: 'Native product · Mobile & TV' },
+    status: { es: 'Android y Android TV', en: 'Android & Android TV' },
+    tagline: { es: 'Una app. Dos formas de usarla.', en: 'One app. Two ways to use it.' },
+    summary: {
+      es: 'Un reproductor para las fuentes del usuario, adaptado al tacto y al mando. Biblioteca, reproducción y recomendaciones privadas en el dispositivo.',
+      en: 'A player for the user’s own sources, adapted to touch and a TV remote. Library, playback and private recommendations on the device.',
+    },
+    stack: ['Kotlin', 'Jetpack Compose', 'Media3 / ExoPlayer', 'Room', 'WorkManager'],
+    links: [],
+    sections: {
+      es: [
+        { heading: 'El problema', body: 'Una interfaz cómoda en el móvil no funciona igual desde el sofá. Odin aborda la reproducción y organización de fuentes del usuario en móvil, tableta y TV. La app no proporciona canales ni suscripciones.' },
+        { heading: 'Las decisiones', body: 'La misma APK adapta la navegación a touch o D-pad. El catálogo se guarda localmente y las recomendaciones se calculan en el dispositivo, con motivos visibles. Reanudación, búsqueda y foco del mando reciben tanta atención como la reproducción.' },
+        { heading: 'Dónde está', body: 'El proyecto tiene versiones Android y pruebas para móvil y TV. Parte de la validación física sigue pendiente. El trabajo muestra cómo convertir diferencias de pantalla, entrada y rendimiento en decisiones concretas de experiencia, sin depender de un backend propio.' },
+      ],
+      en: [
+        { heading: 'The problem', body: 'An interface that feels comfortable on a phone does not work the same way from a sofa. Odin handles playback and organisation of the user’s own sources across phones, tablets and TVs. The app provides no channels or subscriptions.' },
+        { heading: 'The decisions', body: 'The same APK adapts navigation to touch or a D-pad. The catalogue is stored locally and recommendations are calculated on the device, with visible explanations. Resume playback, search and remote focus receive as much attention as the player itself.' },
+        { heading: 'Where it stands', body: 'The project has Android releases and tests for mobile and TV. Some physical device validation remains pending. The work turns differences in screens, input and performance into concrete experience decisions, without a dedicated backend.' },
+      ],
+    },
+  },
+  {
+    id: 'magnet-pop',
+    name: 'Magnet Pop',
+    number: '05',
+    category: { es: 'Juego móvil · Experimentación', en: 'Mobile game · Experimentation' },
+    status: { es: 'Piloto privado', en: 'Private pilot' },
+    tagline: { es: 'Fácil de tocar. Interesante de resolver.', en: 'Easy to tap. Interesting to solve.' },
+    summary: {
+      es: 'Un puzzle de imanes, color y gravedad. Diseño de mecánicas, progresión y herramientas propias para entender dónde se atasca el jugador.',
+      en: 'A puzzle built around magnets, colour and gravity. Mechanics, progression and custom tools to understand where players get stuck.',
+    },
+    stack: ['React', 'TypeScript', 'Capacitor', 'Web Workers', 'Postgres'],
+    links: [],
+    sections: {
+      es: [
+        { heading: 'El problema', body: 'Un puzzle debe enseñar sus reglas mientras se juega y seguir ofreciendo decisiones interesantes. Magnet Pop parte de una acción sencilla: atraer una bola hacia un imán. El orden, los obstáculos y la gravedad cambian lo que ese toque permite resolver.' },
+        { heading: 'Las decisiones', body: 'La campaña introduce cada mecánica antes de combinarla con las anteriores. Los colores tienen símbolos para facilitar su lectura. Un solver comprueba que cada nivel tenga solución en segundo plano; las herramientas de analítica permiten revisar bloqueos, pistas, abandonos y continuación entre niveles.' },
+        { heading: 'Dónde está', body: 'Es un piloto privado para web móvil y Android, con campaña, progreso local y herramientas de desarrollo. La siguiente validación está en cómo juegan las personas: distinguir un reto satisfactorio de una regla mal explicada requiere observar el comportamiento, no solo terminar el nivel.' },
+      ],
+      en: [
+        { heading: 'The problem', body: 'A puzzle needs to teach its rules through play while keeping its decisions interesting. Magnet Pop starts with a simple action: pull a ball towards a magnet. Order, obstacles and gravity change what that tap can solve.' },
+        { heading: 'The decisions', body: 'The campaign introduces each mechanic before combining it with earlier ones. Colours also have symbols for readability. A solver checks solvability in the background; analytics tools make it possible to review dead ends, hints, abandonment and progression between levels.' },
+        { heading: 'Where it stands', body: 'It is a private pilot for mobile web and Android, with a campaign, local progress and development tools. The next validation is in how people play: telling a satisfying challenge from a poorly explained rule requires observing behaviour, not just completing the level.' },
+      ],
+    },
+  },
+  {
+    id: 'signal',
+    name: 'Signal',
+    number: '06',
+    category: { es: 'Datos · Herramienta de análisis', en: 'Data · Analysis tool' },
+    status: { es: 'Prototipo funcional', en: 'Working prototype' },
+    tagline: { es: 'De una conversación a una evidencia revisable.', en: 'From a conversation to evidence you can review.' },
+    summary: {
+      es: 'Importación de conversaciones, revisión de predicciones y visualización de resultados. Datos locales y una metodología que se puede consultar.',
+      en: 'Conversation imports, prediction reviews and result visualisation. Local data and a methodology that can be inspected.',
+    },
+    stack: ['React', 'TypeScript', 'Vite / Vinext', 'Recharts', 'Base UI'],
+    links: [],
+    sections: {
+      es: [
+        { heading: 'El problema', body: 'En una conversación es fácil recordar un acierto y perder el contexto de todo lo demás. Signal organiza predicciones extraídas de exports de WhatsApp para poder revisarlas, registrar su resultado y conservar la evidencia de cada evaluación.' },
+        { heading: 'Las decisiones', body: 'La detección usa reglas de texto y las señales quedan pendientes de revisión humana. La interfaz explica qué entra en cada cálculo. Los datos permanecen en el navegador y el ejemplo ficticio se mantiene separado de las conversaciones importadas.' },
+        { heading: 'Dónde está', body: 'Es un prototipo funcional con importación, revisión, ranking y exportación. No consulta precios históricos ni verifica resultados automáticamente. El valor de producto está en hacer explícitos los límites y permitir que cada conclusión vuelva a los datos que la sostienen.' },
+      ],
+      en: [
+        { heading: 'The problem', body: 'In a conversation, it is easy to remember one correct prediction and lose the context of everything else. Signal organises predictions extracted from WhatsApp exports so they can be reviewed, assigned an outcome and supported by evidence.' },
+        { heading: 'The decisions', body: 'Detection uses text rules and signals remain pending until a person reviews them. The interface explains what goes into each calculation. Data stays in the browser and the fictional example remains separate from imported conversations.' },
+        { heading: 'Where it stands', body: 'It is a working prototype with import, review, ranking and export. It does not fetch historical prices or verify outcomes automatically. Its product value lies in making those limits explicit and letting each conclusion be traced back to supporting data.' },
+      ],
+    },
+  },
+  {
+    id: 'parking',
+    name: 'Gestor Parking',
+    number: '07',
+    category: { es: 'Herramienta interna · Operaciones', en: 'Internal tool · Operations' },
+    status: { es: 'Prototipo funcional', en: 'Working prototype' },
+    tagline: { es: 'Saber si hay sitio. Reservarlo. Listo.', en: 'Check for a space. Book it. Done.' },
+    summary: {
+      es: 'Disponibilidad por fecha, reservas y cancelaciones para organizar el parking de una oficina. Un problema concreto, un flujo directo.',
+      en: 'Availability by date, reservations and cancellations for an office car park. One concrete problem, one straightforward flow.',
+    },
+    stack: ['JavaScript', 'Node.js', 'Express', 'SQLite'],
+    links: [],
+    sections: {
+      es: [
+        { heading: 'El problema', body: 'Compartir un número limitado de plazas requiere saber cuáles estarán disponibles un día concreto. El proyecto concentra esa consulta y la reserva en una web sencilla, evitando que la información quede repartida entre conversaciones.' },
+        { heading: 'Las decisiones', body: 'El flujo tiene pocas operaciones: elegir fecha, consultar disponibilidad, reservar o cancelar. El número de plazas se puede configurar. Una API pequeña y SQLite resuelven la persistencia sin introducir una infraestructura innecesaria para el prototipo.' },
+        { heading: 'Dónde está', body: 'Es un prototipo de herramienta interna. Para un despliegue de uso continuado, la persistencia debe encajar con el alojamiento. El criterio de producto es mantener visible la tarea principal y ajustar la solución técnica al tamaño real del problema.' },
+      ],
+      en: [
+        { heading: 'The problem', body: 'Sharing a limited number of parking spaces means knowing what will be available on a particular day. The project brings that check and the reservation into a simple website, keeping the information out of scattered conversations.' },
+        { heading: 'The decisions', body: 'The flow has only a few operations: choose a date, check availability, book or cancel. The number of spaces is configurable. A small API and SQLite provide persistence without unnecessary infrastructure for the prototype.' },
+        { heading: 'Where it stands', body: 'It is an internal tool prototype. For ongoing deployment, persistence needs to fit the hosting environment. The product principle is to keep the main task visible and match the technical solution to the actual size of the problem.' },
+      ],
+    },
+  },
+  {
+    id: 'commit-streak',
+    name: 'Commit Streak',
+    number: '08',
+    category: { es: 'Herramienta personal · GitHub', en: 'Personal tool · GitHub' },
+    status: { es: 'Prototipo funcional', en: 'Working prototype' },
+    tagline: { es: 'Ver la continuidad del trabajo.', en: 'See the continuity of the work.' },
+    summary: {
+      es: 'Un panel ligero que reúne la actividad de proyectos de GitHub y hace visibles los días de trabajo y las rachas.',
+      en: 'A lightweight dashboard bringing together GitHub project activity to make working days and streaks visible.',
+    },
+    stack: ['React', 'TypeScript', 'Vite', 'GitHub API'],
+    links: [],
+    sections: {
+      es: [
+        { heading: 'El problema', body: 'Cuando se trabaja en varios proyectos, la actividad queda repartida entre repositorios. Commit Streak reúne esa señal en una vista para consultar la continuidad del trabajo sin abrir cada proyecto por separado.' },
+        { heading: 'Las decisiones', body: 'El panel consulta la API de GitHub y agrupa los commits por día. Permite añadir repositorios y muestra estados de carga y errores por proyecto. La interfaz se centra en el calendario, la actividad reciente y las rachas.' },
+        { heading: 'Dónde está', body: 'Es un prototipo funcional de uso personal. Los commits sirven como señal de continuidad, no como medida de calidad ni de impacto. Esa distinción define el alcance: ayudar a ver un hábito sin convertir la actividad en una evaluación del trabajo.' },
+      ],
+      en: [
+        { heading: 'The problem', body: 'When work spans several projects, activity is spread across repositories. Commit Streak brings that signal into one view so continuity can be checked without opening each project separately.' },
+        { heading: 'The decisions', body: 'The dashboard queries the GitHub API and groups commits by day. Repositories can be added, with loading and error states shown per project. The interface focuses on the calendar, recent activity and streaks.' },
+        { heading: 'Where it stands', body: 'It is a working prototype for personal use. Commits are a signal of continuity, not a measure of quality or impact. That distinction defines the scope: help reveal a habit without turning activity into an assessment of the work.' },
+      ],
+    },
+  },
+  {
+    id: 'best-matches-history',
+    name: 'Best Matches of History',
+    number: '09',
+    category: { es: 'Descubrimiento · Deporte', en: 'Discovery · Sport' },
+    status: { es: 'Prototipo', en: 'Prototype' },
+    tagline: { es: 'Volver a un partido que merece la pena.', en: 'Find a match worth watching again.' },
+    summary: {
+      es: 'Un catálogo de partidos históricos organizado por deporte, con vídeos de YouTube, votaciones y descubrimiento aleatorio.',
+      en: 'A catalogue of historic matches organised by sport, with YouTube videos, voting and random discovery.',
+    },
+    stack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'LocalStorage'],
+    links: [],
+    sections: {
+      es: [
+        { heading: 'La idea', body: 'Reunir partidos memorables de distintos deportes en un lugar desde el que descubrir qué ver. El catálogo permite navegar por deporte, abrir un vídeo y encontrar otro partido al azar.' },
+        { heading: 'Qué incluye', body: 'El prototipo parte de una selección inicial de partidos e incorpora vídeos de YouTube, votos positivos y negativos y un formulario para añadir enlaces. Los votos y las incorporaciones se guardan en el navegador.' },
+        { heading: 'Dónde está', body: 'Es un prototipo web sin una demo pública disponible. Los datos locales permiten explorar la interacción, pero no constituyen una comunidad con votos compartidos entre usuarios. La autenticación y los comentarios quedan fuera de esta versión.' },
+      ],
+      en: [
+        { heading: 'The idea', body: 'Bring memorable matches from different sports into one place to discover what to watch. The catalogue lets people browse by sport, open a video and find another match at random.' },
+        { heading: 'What it includes', body: 'The prototype starts with an initial selection of matches and includes YouTube videos, upvotes and downvotes, and a form for adding links. Votes and additions are stored in the browser.' },
+        { heading: 'Where it stands', body: 'It is a web prototype without an available public demo. Local data supports exploring the interaction, but does not provide community votes shared across users. Authentication and comments are outside this version’s scope.' },
+      ],
+    },
+  },
+  {
+    id: 'wcigrn',
+    name: 'Where Can I Get Retired Now?',
+    number: '10',
+    category: { es: 'Comparación · Datos y mapas', en: 'Comparison · Data & maps' },
+    status: { es: 'Prototipo', en: 'Prototype' },
+    tagline: { es: 'Explorar dónde podría encajar otra vida.', en: 'Explore where a different life might fit.' },
+    summary: {
+      es: 'Un comparador de ciudades que relaciona ahorros, ingresos y preferencias de vida con estimaciones de coste. Resultados en tarjetas y mapa.',
+      en: 'A city comparison tool connecting savings, income and lifestyle preferences with cost estimates. Results appear as cards and on a map.',
+    },
+    stack: ['Next.js', 'TypeScript', 'Prisma / SQLite', 'Leaflet', 'Zustand'],
+    links: [],
+    sections: {
+      es: [
+        { heading: 'La idea', body: 'Explorar en qué ciudades podría encajar un escenario de jubilación a partir de ahorros, ingresos y preferencias. El prototipo combina estimaciones de coste de vida con filtros y una vista geográfica.' },
+        { heading: 'Qué incluye', body: 'Un motor de cálculo con supuestos ajustables, una colección inicial de ciudades, resultados ordenados, mapa y favoritos. La interfaz permite modificar parámetros como el margen de seguridad y las preferencias de estilo de vida.' },
+        { heading: 'Dónde está', body: 'Es un prototipo de comparación, sin una demo pública verificada. Usa un conjunto inicial de datos y tipos de cambio en memoria; las fuentes actualizadas siguen pendientes de integración. Sus resultados sirven para explorar escenarios, no para tomar decisiones financieras sin contrastarlos.' },
+      ],
+      en: [
+        { heading: 'The idea', body: 'Explore which cities might fit a retirement scenario based on savings, income and preferences. The prototype combines cost-of-living estimates with filters and a geographical view.' },
+        { heading: 'What it includes', body: 'A calculation engine with adjustable assumptions, an initial collection of cities, ranked results, a map and favourites. The interface lets people change parameters such as the safety buffer and lifestyle preferences.' },
+        { heading: 'Where it stands', body: 'It is a comparison prototype without a verified public demo. It uses an initial dataset and in-memory exchange rates; current data sources remain to be integrated. Its results support exploring scenarios, not making financial decisions without checking the underlying data.' },
+      ],
+    },
+  },
+  {
+    id: 'dosx1',
+    name: '2x1',
+    number: '11',
+    category: { es: 'Marketplace · Compra colaborativa', en: 'Marketplace · Shared shopping' },
+    status: { es: 'Prototipo', en: 'Prototype' },
+    tagline: { es: 'Compartir la oferta, sin necesitar el doble.', en: 'Share the offer without needing twice as much.' },
+    summary: {
+      es: 'Un marketplace para encontrar a otra persona con quien aprovechar promociones 2x1 o descuentos en la segunda unidad.',
+      en: 'A marketplace for finding someone to share buy-one-get-one offers or second-item discounts.',
+    },
+    stack: ['Expo / React Native', 'Next.js', 'NestJS', 'Prisma / Postgres', 'Socket.IO / BullMQ'],
+    links: [],
+    sections: {
+      es: [
+        { heading: 'La idea', body: 'Una promoción puede resultar útil aunque no se necesiten dos unidades. 2x1 explora cómo publicar una oferta y encontrar a otra persona interesada en compartir la compra.' },
+        { heading: 'Qué incluye', body: 'El repositorio reúne una app móvil, una interfaz web y una API. Incluye módulos de ofertas, participaciones, emparejamiento y chat, junto a tareas en segundo plano para gestionar el ciclo de las ofertas.' },
+        { heading: 'Dónde está', body: 'Es un prototipo de marketplace, sin una publicación abierta verificada. La base técnica permite desarrollar el flujo de compra compartida; no se presentan como validados el uso entre compradores reales ni las operaciones comerciales.' },
+      ],
+      en: [
+        { heading: 'The idea', body: 'An offer can be useful even when someone does not need two items. 2x1 explores publishing an offer and finding another person interested in sharing the purchase.' },
+        { heading: 'What it includes', body: 'The repository brings together a mobile app, a web interface and an API. It includes modules for offers, participation, matching and chat, alongside background tasks for managing the offer lifecycle.' },
+        { heading: 'Where it stands', body: 'It is a marketplace prototype without a verified public release. The technical foundation supports developing a shared-shopping flow; use between real buyers and commercial operations have not been established as validated outcomes.' },
+      ],
+    },
+  },
+  {
+    id: 'curso-acroyoga',
+    name: 'Curso Acroyoga',
+    number: '12',
+    category: { es: 'Educación · Plataforma de cursos', en: 'Education · Course platform' },
+    status: { es: 'Prototipo', en: 'Prototype' },
+    tagline: { es: 'Dar estructura a un curso de acroyoga.', en: 'Give an acroyoga course a clear structure.' },
+    summary: {
+      es: 'Una plataforma de aprendizaje con catálogo de cursos, acceso de usuarios y administración. Las integraciones de cobro y vídeo se exploran con simulaciones.',
+      en: 'A learning platform with a course catalogue, user access and administration. Billing and video integrations are explored through simulations.',
+    },
+    stack: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Clerk'],
+    links: [],
+    sections: {
+      es: [
+        { heading: 'La idea', body: 'Organizar una experiencia de formación en acroyoga: descubrir un curso, acceder a sus contenidos y disponer de un panel para administrarlos.' },
+        { heading: 'Qué incluye', body: 'El prototipo reúne catálogo, acceso de usuarios, administración y una interfaz de reproducción. También contiene la estructura de las integraciones de facturación y vídeo y pruebas para los flujos de la plataforma.' },
+        { heading: 'Dónde está', body: 'Es un prototipo sin una demo pública verificada. Los proveedores de cobro y vídeo devuelven respuestas simuladas, tal como documenta el proyecto. Conectar y validar servicios reales es un paso pendiente antes de ofrecer cursos de pago.' },
+      ],
+      en: [
+        { heading: 'The idea', body: 'Organise an acroyoga learning experience: discover a course, access its content and provide an administration panel for managing it.' },
+        { heading: 'What it includes', body: 'The prototype brings together a catalogue, user access, administration and a playback interface. It also contains the structure for billing and video integrations and tests for platform flows.' },
+        { heading: 'Where it stands', body: 'It is a prototype without a verified public demo. Billing and video providers return simulated responses, as documented in the project. Connecting and validating real services remains necessary before offering paid courses.' },
+      ],
+    },
+  },
+  {
+    id: 'awaking-immo',
+    name: 'AWaking Immo',
+    number: '13',
+    category: { es: 'Geolocalización · Inmobiliario', en: 'Geolocation · Property' },
+    status: { es: 'Prototipo', en: 'Prototype' },
+    tagline: { es: '¿Cuánto vale aquí?', en: 'What does a place here cost?' },
+    summary: {
+      es: 'Un prototipo móvil para iniciar una búsqueda de inmuebles cercanos desde la ubicación o con una pregunta de voz.',
+      en: 'A mobile prototype for starting a nearby property search using location or a spoken question.',
+    },
+    stack: ['Expo / React Native', 'TypeScript', 'FastAPI', 'Nominatim', 'Zustand'],
+    links: [],
+    sections: {
+      es: [
+        { heading: 'La idea', body: 'Poder preguntar por inmuebles cercanos desde el lugar en el que estás. El flujo parte de un botón o una pregunta de voz y utiliza la ubicación para iniciar la consulta.' },
+        { heading: 'Qué incluye', body: 'Una app Expo gestiona permisos de ubicación y micrófono. El servidor FastAPI incorpora geocodificación inversa, caché y una estructura para consultar conectores de búsqueda, con enlaces de salida como alternativa.' },
+        { heading: 'Dónde está', body: 'Es un prototipo sin una demo pública verificada. Los conectores inmobiliarios reales están pendientes, por lo que no se presenta como una búsqueda operativa de anuncios ni como un servicio de valoración. El código permite explorar la interacción y la arquitectura de esa consulta.' },
+      ],
+      en: [
+        { heading: 'The idea', body: 'Ask about nearby properties from the place where you are standing. The flow starts with a button or a spoken question and uses location to begin the query.' },
+        { heading: 'What it includes', body: 'An Expo app handles location and microphone permissions. The FastAPI server includes reverse geocoding, caching and a structure for querying search connectors, with outgoing links as a fallback.' },
+        { heading: 'Where it stands', body: 'It is a prototype without a verified public demo. Real property connectors remain to be implemented, so it is not presented as an operational listing search or valuation service. The code supports exploring the interaction and architecture behind that query.' },
+      ],
+    },
+  },
+];
